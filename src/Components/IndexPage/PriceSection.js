@@ -1,8 +1,10 @@
 import React from "react";
+import { PriceSectionHeading } from "./PriceSection/PriceSectionHeading";
+import { SectionImage } from "./SectionSliderComponents/SectionImage";
 
 export const PriceSection = () =>{
     return (
-        <section className="price_section layout_padding">
+       
         <div className="container">
           <div className="heading_container">
             <h2>
@@ -12,12 +14,10 @@ export const PriceSection = () =>{
           <div className="price_container">
             <div className="box">
               <div className="name">
-                <h6>
-                  Diamond Ring
-                </h6>
+              <PriceSectionHeading heading = "test" />
               </div>
               <div className="img-box">
-                <img src="images/p-1.png" alt="" />
+              <SectionImage image ={"https://e7.pngegg.com/pngimages/1014/979/png-clipart-wedding-ring-symbol-christian-views-on-marriage-wedding-wedding-anniversary-holidays.png"} />
               </div>
               <div className="detail-box">
                 <h5>
@@ -30,12 +30,10 @@ export const PriceSection = () =>{
             </div>
             <div className="box">
               <div className="name">
-                <h6>
-                  Diamond Ring
-                </h6>
+              <PriceSectionHeading heading = "test2" />
               </div>
               <div className="img-box">
-                <img src="images/i-2.png" alt="" />
+              <SectionImage image ={"https://e7.pngegg.com/pngimages/1014/979/png-clipart-wedding-ring-symbol-christian-views-on-marriage-wedding-wedding-anniversary-holidays.png"} />
               </div>
               <div className="detail-box">
                 <h5>
@@ -48,12 +46,10 @@ export const PriceSection = () =>{
             </div>
             <div className="box">
               <div className="name">
-                <h6>
-                  Diamond Ring
-                </h6>
+              <PriceSectionHeading heading = "test3" />
               </div>
               <div className="img-box">
-                <img src="images/i-3.png" alt="" />
+              <SectionImage image ={"https://e7.pngegg.com/pngimages/1014/979/png-clipart-wedding-ring-symbol-christian-views-on-marriage-wedding-wedding-anniversary-holidays.png"} />
               </div>
               <div className="detail-box">
                 <h5>
@@ -71,6 +67,6 @@ export const PriceSection = () =>{
             </a>
           </div>
         </div>
-      </section>
+  
     )
 }
