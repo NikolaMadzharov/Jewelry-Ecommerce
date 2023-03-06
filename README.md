@@ -10,4 +10,5 @@ the site is still under development!
 * ReactJS
 * JavaScript
 * Html & css
+* API (https://github.com/NikolaMadzharov/Jewelry-Web-Api)
 
