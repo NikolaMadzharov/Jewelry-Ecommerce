@@ -1,6 +1,3 @@
-Jewely Ecommerce WebSite- ReactJs application
-
-
 
 ## :pencil: Project Description
 Ecommerce site where you find the best luxurious rings in the world and make a present for your beautiful girlfriend, wife, fiancee
