@@ -1,0 +1,74 @@
+.header_section {
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px;
+    }
+    
+    .custom_nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .custom_nav-container .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+    
+    .custom_nav-container .navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+    }
+    
+    .custom_nav-container .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    }
+    
+    .custom_nav-container .nav-link:hover {
+    background-color: #fff;
+    color: orange !important;
+    border-radius: 3px;
+    }
+    
+    .cart_number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #ff0049;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    }
+    
+    .quote_btn-container a {
+    position: relative;
+    }
+    
+    .quote_btn-container a:hover .cart_number {
+    display: none;
+    }
+    
+    .nav_search-btn {
+    background: url(../images/search_icon.png) no-repeat center;
+    border: none;
+    height: 28px;
+    width: 28px;
+    margin-left: 15px;
+    }
+    
+    .nav_search-btn:hover {
+    background-color: transparent;
+    }

@@ -5,10 +5,10 @@ export const Header = () =>{
         <header className="header_section">
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg custom_nav-container" style={{ backgroundColor: 'orange' }}>
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" >
               <img src="images/logo.png" alt="" />
               <span>
-                Lodge
+                Ring Shop
               </span>
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,13 @@ export const Header = () =>{
               <div className="d-flex ml-auto flex-column flex-lg-row align-items-center">
                 <ul className="navbar-nav  ">
                   <li className="nav-item active">
-                    <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                  <Link className='nav-link' to="/">Home</Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="about.html"> About</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="jewellery.html">Jewellery </a>
+                  <Link className='nav-link' to="/Catalog">Catalog</Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="contact.html">Contact us</a>

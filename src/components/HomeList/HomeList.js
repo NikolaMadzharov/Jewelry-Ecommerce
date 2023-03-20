@@ -1,3 +1,5 @@
+import './HomeList.css'
+
 export const HomeList = () =>{
     return (
         <div className="container">

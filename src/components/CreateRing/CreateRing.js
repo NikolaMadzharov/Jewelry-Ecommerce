@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import * as ringService from '../../services/ring-services'
+import './CreateRing.css'
 
 
 export const CreateRing = () => {
@@ -45,7 +46,7 @@ export const CreateRing = () => {
                     type="text"
                     className="type"
                     name="type"
-                    placeholder="type"
+                    placeholder="Type"
                     value={ringData.type}
                     onChange={addRingDataInfo}
                 />
@@ -56,7 +57,9 @@ export const CreateRing = () => {
                     placeholder="Description"
                     value={ringData.description}
                     onChange={addRingDataInfo}
+                    rows={5} 
                 ></input>
+
                 <input
                     type="text"
                     className="price"
