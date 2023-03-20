@@ -48,12 +48,23 @@ the site is still under development!
 3. Catalog(All rings) Page
 ![image](https://user-images.githubusercontent.com/89745007/226476225-9614077c-4322-489b-8f56-4b74609cb727.png)
 
+## Author
+Nikola Madzharov
+<br />
+[LinkedIn](https://www.linkedin.com/in/nikola-madzharov-106b90236/)
 
-<!-- Contact -->
+
+## :wave: Contributing
+
+<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+</a>
+Give a :star: if you like this project!
+
+
 ## :handshake: Contact
 
 [LinkedIn](https://www.linkedin.com/in/nikola-madzharov-106b90236/)
-
 
 
 Email = nmadzharov1912@gmail.com
