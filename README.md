@@ -3,7 +3,7 @@ Jewely Ecommerce WebSite- ReactJs application
 
 
 ## :pencil: Project Description
-CameraShop is a website where you can buy rings,bracelts and many more luxirious items.
+Ecommerce site where you can ring for your beautiful girlfriend, wife, fiancee
 the site is still under development!
 
 ## :hammer: Used technologies
