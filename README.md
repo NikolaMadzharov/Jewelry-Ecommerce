@@ -3,7 +3,7 @@ Jewely Ecommerce WebSite- ReactJs application
 
 
 ## :pencil: Project Description
-Ecommerce site where you can ring for your beautiful girlfriend, wife, fiancee
+Ecommerce site where you find the best luxurious rings in the world and make a present for your beautiful girlfriend, wife, fiancee
 the site is still under development!
 
 ## :hammer: Used technologies
