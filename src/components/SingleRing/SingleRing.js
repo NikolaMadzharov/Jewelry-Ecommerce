@@ -1,4 +1,5 @@
 import './SingleRing.css'
+import { Link } from 'react-router-dom'
 
 export const SingleRing = ({ ring }) => {
     return (
@@ -19,9 +20,7 @@ export const SingleRing = ({ ring }) => {
                 <h5>
                     $<span>{ring.price}</span>
                 </h5>
-                <a href="">
-                    Details
-                </a>
+                <button> <Link to={`/catalog/details/${ring.id}`} className="details-link">Details</Link> </button>
             </div>
         </div>
     );

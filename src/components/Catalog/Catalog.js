@@ -16,7 +16,7 @@ export const Catalog = () => {
             <div className="container">
                 <div className="heading_container">
                     <h2>
-                        Our top Rings
+                        Our top rings
                     </h2>
                 </div>
                 <div className="price_container">

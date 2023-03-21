@@ -20,3 +20,9 @@ export const create = async (ring) => {
     const result = await response.json();
     return result
 }
+
+export const getRingById = async (ringId) =>{
+    const response = await fetch(`${baseUrl}/ring/${ringId}`);
+    const result = await response.json();
+    return result
+}
