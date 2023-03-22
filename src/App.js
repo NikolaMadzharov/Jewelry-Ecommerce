@@ -5,6 +5,8 @@ import { CreateRing } from './components/CreateRing/CreateRing';
 import { Header } from './components/Header/Header'; 
 import { Catalog } from './components/Catalog/Catalog';
 import { Details } from './components/Details/Details';
+import { Edit } from './components/Edit/Edit';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/CreateRing" element={<CreateRing />} />
         <Route path="/Catalog" element={<Catalog />} />
         <Route path='/catalog/details/:ringId' element={<Details />} />
+        <Route path='/catalog/edit/:ringId' element={<Edit />} />
       </Routes>
     </Router>
   );

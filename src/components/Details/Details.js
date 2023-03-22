@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import * as ringService from './../../services/ring-services'
 import './Details.css'
@@ -25,6 +25,7 @@ export const Details = () => {
                 <p>Size: {`${ring.size}`}</p>
                 <p>Type: {`${ring.type}`}</p>
             </section>
+            <Link to={`/catalog/edit/${ring.id}`} className="edit-link">Edit</Link>
         </div>
     )
 }
