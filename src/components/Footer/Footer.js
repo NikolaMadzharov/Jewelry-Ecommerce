@@ -54,7 +54,7 @@ export const Footer = () =>{
               </div>
               <form action="">
                 <div className="email_box">
-                  <label for="email2">Enter Your Email</label>
+                  <label htmlFor="email2">Enter Your Email</label>
                   <input type="text" id="email2" />
                 </div>
                 <div>
@@ -92,10 +92,7 @@ export const Footer = () =>{
     
 
       <section className="container-fluid footer_section">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-        
-        </p>
+      
       </section>
    
         </>

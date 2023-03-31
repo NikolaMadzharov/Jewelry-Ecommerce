@@ -7,6 +7,7 @@ import { Catalog } from './components/Catalog/Catalog';
 import { Details } from './components/Details/Details';
 import { Edit } from './components/Edit/Edit';
 import { Footer } from './components/Footer/Footer';
+import Register from './components/Register/Register';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Catalog" element={<>  <Catalog /> <Footer/> </>} />
         <Route path='/catalog/details/:ringId' element={<>  <Details /> <Footer/> </>} />
         <Route path='/catalog/edit/:ringId' element={<> <Edit /> <Footer/> </>} />
+        <Route path='/register' element={<Register/>} />
       </Routes>
     </Router>
   );

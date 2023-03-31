@@ -36,6 +36,9 @@ export const Header = () =>{
                   <li className="nav-item">
                    <Link className='nav-link' to="/CreateRing">Create Ring</Link>
                   </li>
+                  <li className="nav-item">
+                   <Link className='nav-link' to="/register">Register</Link>
+                  </li>
                 </ul>
   
               </div>
