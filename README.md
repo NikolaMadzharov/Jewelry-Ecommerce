@@ -31,7 +31,7 @@ the site is still under development!
 </details>
 
 
-🖼️: Images
+🖼️Images
 
 
 1. Home Page
