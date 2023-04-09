@@ -5,12 +5,14 @@ import './Details.css'
 
 export const Details = ({ history }) => {
     const { ringId } = useParams();
-    const [ring, setRing] = useState({})
+    const [ring, setRing] = useState({});
+    const [likes, setLikes] = useState(0); /
 
     useEffect(() => {
         ringService.getRingById(ringId)
             .then(result => {
-                setRing(result)
+                setRing(result);
+                setLikes(result.likes); 
             })
     }, [ringId])
 
@@ -18,6 +20,11 @@ export const Details = ({ history }) => {
         await ringService.deleteRing(ring.id);
         setRing({});
         history.push('/');
+    }
+
+    const handleLike = async () => {
+        await ringService.likeRing(ring.id); 
+        setLikes(likes + 1); 
     }
 
     return (
@@ -31,6 +38,8 @@ export const Details = ({ history }) => {
                 <p>Type: {`${ring.type}`}</p>
             </section>
             <button onClick={handleDelete}>Delete</button>
+            <button onClick={handleLike}>Like</button>
+            <p>Likes: {likes}</p>
             <Link to={`/catalog/edit/${ring.id}`} className="edit-link">Edit</Link>
         </div>
     )

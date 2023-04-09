@@ -27,12 +27,12 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route path="/" element={<>  <HomeList /> <Footer/> </>} />
-            <Route path="/Catalog" element={<>  <Catalog /> <Footer/> </>} />
-            <Route path='/catalog/details/:ringId' element={<>  <Details /> <Footer/> </>} />
+            <Route path="/" element={<>  <HomeList /> </>} />
+            <Route path="/Catalog" element={<>  <Catalog /> </>} />
+            <Route path='/catalog/details/:ringId' element={<>  <Details /> </>} />
             <Route element={<GuestGuard/>}>
-              <Route path="/CreateRing" element={<>  <CreateRing /> <Footer/> </>} />
-              <Route path='/catalog/edit/:ringId' element={<> <Edit /> <Footer/> </>} />
+              <Route path="/CreateRing" element={<>  <CreateRing />  </>} />
+              <Route path='/catalog/edit/:ringId' element={<> <Edit /> </>} />
             </Route>
             <Route element={<UserGuard/>}>
               <Route path='/register' element={<Register/>} />
@@ -40,6 +40,7 @@ function App() {
             </Route>
           </Routes>
         </Router>
+       
       </AuthContext.Provider>
     </>
   );
