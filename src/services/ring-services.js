@@ -28,16 +28,23 @@ export const getRingById = async (ringId) =>{
 }
 
 export const update = async (ringId, ring) => {
-    const response = await fetch(`${baseUrl}/ring/${ringId}`, {
-        method: 'POST',
-        headers: {
-            'content-type': 'application/json',
-        },
-        body: JSON.stringify(ring)
+    const response = await fetch(`${baseUrl}/ring/UpdateRing?ringId=${ringId}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(ring),
     });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
     const result = await response.json();
-    return result
-}
+    return result;
+  };
+  
+
+  
+
 export const deleteRing = async (ringId, token) => {
     try {
         const response = await fetch(`${baseUrl}/ring/${ringId}`, {
@@ -57,3 +64,23 @@ export const deleteRing = async (ringId, token) => {
         return error
     }
 };
+
+export const likeRing = async (id) => {
+  try {
+    const response = await fetch(`${baseUrl}/ring/like/${id}`, {
+      method: 'POST'
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to like ring with id ${id}.`);
+    }
+
+    return true;
+  } catch (error) {
+    console.error(error);
+    return false;
+  }
+};
+
+  
+

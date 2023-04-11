@@ -35,12 +35,6 @@ export const Header = () => {
                 <li className="nav-item">
                   <Link className='nav-link' to="/Catalog">Catalog</Link>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="about.html"> About</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="contact.html">Contact us</a>
-                </li>
                 {isAuth &&
                   <>
                     <li className="nav-item">

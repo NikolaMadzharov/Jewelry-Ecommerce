@@ -1,54 +1,45 @@
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: linear-gradient(to bottom right, #ffbf00, #ff0080);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-  }
-  
-  .login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-  }
-  
-  .login-form label {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  
-  .login-form input {
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .login-form button {
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: #ff0080;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .login-form button:hover {
-    background-color: #e60073;
-  }
-  .register-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-  
-  
+.register-container {
+  background-color: orange;
+  padding: 20px;
+}
+
+.register-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

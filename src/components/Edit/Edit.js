@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import * as ringService from '../../services/ring-services'
 
 export const Edit = () => {
@@ -11,16 +11,25 @@ export const Edit = () => {
                 setRing(result)
             })
     }, [ringId])
-   
-    const [ring, setRing] = useState({})
+
+    const [ring, setRing] = useState({
+        name: "",
+        size: "",
+        type: "",
+        description: "",
+        price: "",
+        url: ""
+    });
 
     const updateRingHandler = async (e) => {
-        e.preventDefault()
-        await ringService.update(ring, ringId)
-    };
+        e.preventDefault();
+        await ringService.update(ringId, ring);
+        // Redirect to ring list
+        
+      };
 
     const addRingDataInfo = (e) => {
-        setRing({ ...ring, [e.target.name]: e.target.value })
+        setRing({ ...ring, [e.target.name]: e.target.value });
     };
     
     return (
@@ -51,14 +60,14 @@ export const Edit = () => {
                     value={ring.type}
                     onChange={addRingDataInfo}
                 />
-                <input
+                <textarea
                     className="description"
                     name="description"
                     placeholder="Description"
                     value={ring.description}
                     onChange={addRingDataInfo}
                     rows={5} 
-                ></input>
+                ></textarea>
                 <input
                     type="text"
                     className="price"

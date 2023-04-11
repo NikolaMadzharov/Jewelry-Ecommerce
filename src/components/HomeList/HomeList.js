@@ -1,4 +1,5 @@
 import './HomeList.css'
+import { Link } from 'react-router-dom';
 
 export const HomeList = () =>{
     return (
@@ -25,9 +26,9 @@ export const HomeList = () =>{
                       Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felislacinia
                       aptent taciti sociosqu ad litora torquent per conubia nostra
                     </p>
-                    <div>
-                      <a href="">Shop Now</a>
-                    </div>
+                    <li className="nav-item">
+                  <Link className='nav-link' to="/Catalog">Catalog</Link>
+                  </li>
                   </div>
                 </div>
                 <div className="col-md-6">

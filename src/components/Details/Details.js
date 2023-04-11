@@ -6,7 +6,7 @@ import './Details.css'
 export const Details = ({ history }) => {
     const { ringId } = useParams();
     const [ring, setRing] = useState({});
-    const [likes, setLikes] = useState(0); /
+    const [likes, setLikes] = useState(0); 
 
     useEffect(() => {
         ringService.getRingById(ringId)
