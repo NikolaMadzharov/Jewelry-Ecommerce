@@ -46,15 +46,15 @@ the site is still under development!
 ![image](https://user-images.githubusercontent.com/89745007/226476225-9614077c-4322-489b-8f56-4b74609cb727.png)
 
 
-4. Details Page 
+4.Details Page 
 ![image](https://user-images.githubusercontent.com/89745007/231191868-e70103ad-3d46-4a31-8d2f-7180b7d846cd.png)
 
 
-5. Edit page 
+5.Edit page 
 ![image](https://user-images.githubusercontent.com/89745007/231192011-180602e2-ac78-4898-9fbd-fad3f3a1d407.png)
 
 
-6. Like, Delete , Edit buttons
+6.Like, Delete , Edit buttons
 ![image](https://user-images.githubusercontent.com/89745007/231192357-53af8d55-3ee2-493d-aa79-e43bbb985e81.png)
 
 
