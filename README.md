@@ -45,6 +45,23 @@ the site is still under development!
 3. Catalog(All rings) Page
 ![image](https://user-images.githubusercontent.com/89745007/226476225-9614077c-4322-489b-8f56-4b74609cb727.png)
 
+4. Details Page 
+![image](https://user-images.githubusercontent.com/89745007/231191868-e70103ad-3d46-4a31-8d2f-7180b7d846cd.png)
+
+5. Edit page 
+![image](https://user-images.githubusercontent.com/89745007/231192011-180602e2-ac78-4898-9fbd-fad3f3a1d407.png)
+
+6. Like, Delete , Edit buttons
+![image](https://user-images.githubusercontent.com/89745007/231192357-53af8d55-3ee2-493d-aa79-e43bbb985e81.png)
+
+7.Login page
+![image](https://user-images.githubusercontent.com/89745007/231192493-f0014e41-e32b-4dcd-b8e6-4ea0420c2eb7.png)
+
+8. Register page
+![image](https://user-images.githubusercontent.com/89745007/231192568-0f465b79-474b-48ad-8bff-76dcd366ff67.png)
+
+
+
 ## Author
 Nikola Madzharov
 <br />
