@@ -31,7 +31,7 @@ the site is still under development!
 </details>
 
 
-:eyes: Usage
+## 🖼️Images
 
 
 1. Home Page
