@@ -1,7 +1,6 @@
 
 ## :pencil: Project Description
-Ecommerce site where you find the best luxurious rings in the world and make a present for your beautiful girlfriend, wife, fiancee
-the site is still under development!
+Ecommerce site where you find the best luxurious rings in the world and make a present for your beautiful girlfriend, wife, fiancee.
 
 ## :hammer: Used technologies
 
